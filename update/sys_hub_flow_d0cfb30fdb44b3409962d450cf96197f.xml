@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"6d85d236-50c0-4f90-a43b-67acb747329a.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"801978e2-0a6c-4edc-ae87-be2760d37f58.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"7d32058c-f8ce-4a84-981c-17d41cae8aaf.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"ca59fb9e-86aa-44ce-aad3-c78588ac138f.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"Run Once_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2019-03-12 17:06:30</sys_created_on>
+        <sys_id>d0cfb30fdb44b3409962d450cf96197f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_79102_needit_spo">8eddbf0bdb44b3409962d450cf9619e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">8eddbf0bdb44b3409962d450cf9619e5</sys_scope>
+        <sys_update_name>sys_hub_flow_d0cfb30fdb44b3409962d450cf96197f</sys_update_name>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2019-03-14 14:15:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d0cfb30fdb44b3409962d450cf96197f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d0cfb30fdb44b3409962d450cf96197f"/>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="NeedIt">a62e330fdb44b3409962d450cf9619a0</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛Property","type":"action","ref":""},{"name":"{{step[390e0cdb-2d7a-4b96-9384-4cf51703ac3c].property_value}}","label":"step➛Lookup Application Property➛property_value","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>1b44fc57db08b3409962d450cf961976</latest_snapshot>
+        <master_snapshot>7344fc57db08b3409962d450cf9619d9</master_snapshot>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2019-03-12 17:00:03</sys_created_on>
+        <sys_id>0a4efb87db44b3409962d450cf96195a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_79102_needit_spo">8eddbf0bdb44b3409962d450cf9619e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">8eddbf0bdb44b3409962d450cf9619e5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0a4efb87db44b3409962d450cf96195a</sys_update_name>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2019-03-12 20:56:07</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a4efb87db44b3409962d450cf96195a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0a4efb87db44b3409962d450cf96195a"/>
+    <sys_element_mapping action="delete_multiple" query="id=0a4efb87db44b3409962d450cf96195a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_value</field>
+        <id>0a4efb87db44b3409962d450cf96195a</id>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2019-03-12 19:40:49</sys_created_on>
+        <sys_id>7813a05bdbc4b3409962d450cf9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2019-03-12 19:40:49</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0a4efb87db44b3409962d450cf96195a</table>
+        <value>{{step[390e0cdb-2d7a-4b96-9384-4cf51703ac3c].property_value}}</value>
+    </sys_element_mapping>
+</record_update>

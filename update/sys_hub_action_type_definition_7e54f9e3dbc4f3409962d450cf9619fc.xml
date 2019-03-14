@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="NeedIt">a62e330fdb44b3409962d450cf9619a0</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days ago","type":"action","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].n}}","label":"step➛Calculate Days Ago Date➛n","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].ne}}","label":"step➛Calculate Days Ago Date➛ne","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new}}","label":"step➛Calculate Days Ago Date➛new","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new_}}","label":"step➛Calculate Days Ago Date➛new_","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new_d}}","label":"step➛Calculate Days Ago Date➛new_d","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new_da}}","label":"step➛Calculate Days Ago Date➛new_da","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new_dat}}","label":"step➛Calculate Days Ago Date➛new_dat","type":"step","ref":""},{"name":"{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new_date}}","label":"step➛Calculate Days Ago Date➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>02d63d67dbc4f3409962d450cf96193d</latest_snapshot>
+        <master_snapshot>16d63d67dbc4f3409962d450cf96199e</master_snapshot>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2019-03-13 20:14:25</sys_created_on>
+        <sys_id>7e54f9e3dbc4f3409962d450cf9619fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_79102_needit_spo">8eddbf0bdb44b3409962d450cf9619e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">8eddbf0bdb44b3409962d450cf9619e5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_7e54f9e3dbc4f3409962d450cf9619fc</sys_update_name>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2019-03-13 20:25:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e54f9e3dbc4f3409962d450cf9619fc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7e54f9e3dbc4f3409962d450cf9619fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7e54f9e3dbc4f3409962d450cf9619fc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2019-03-13 20:20:57</sys_created_on>
+        <sys_id>e6d5fd27dbc4f3409962d450cf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2019-03-13 20:20:57</sys_updated_on>
+        <value/>
+        <variable display_value="">26d5fd27dbc4f3409962d450cf9619ce</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e54f9e3dbc4f3409962d450cf9619fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_date</field>
+        <id>7e54f9e3dbc4f3409962d450cf9619fc</id>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2019-03-13 20:20:57</sys_created_on>
+        <sys_id>66d5fd27dbc4f3409962d450cf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2019-03-13 20:20:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7e54f9e3dbc4f3409962d450cf9619fc</table>
+        <value>{{step[757f327d-6b60-486c-aed0-6f5088fa2e1a].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
